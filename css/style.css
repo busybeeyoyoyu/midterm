@@ -56,11 +56,150 @@ body{
     background-color: #aad4cf;
     font-family:Arial, Helvetica, sans-serif
 }
-
 .container{
 
-    width: 1025px;
+    width: 1024px;
     background-color: #d4e9e7;
-    margin: auto;
-
+    position:relative;
+	margin:0 auto;	
 }
+header .container {
+	position:relative;
+	margin:0 auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+  }
+  
+  li {
+	display: inline;
+  }
+
+li a{
+  display: inline;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+  
+h1{
+	position: absolute;
+	top: 240px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 36pt;
+}
+
+
+h2 
+{
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 100%;
+	text-align: left;
+	font-size: 24pt;
+	position:left 20px;
+}
+
+
+
+#my-img2{float:left 
+}
+
+
+p{
+	padding: 20px;;
+	text-align:20px;
+	font-size: 1rem;
+	line-height: 20px;
+	margin: 2px;
+}
+
+
+h3{
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 100%;
+	text-align: left;
+	font-size: 24pt;
+}
+
+
+p1 .options{
+	padding: 20px;
+	margin: 20px;
+	line-height: 18px;
+}
+
+h4{
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 100%;
+	text-align: left;
+	font-size: 24pt;
+	padding-bottom: 10px;
+}
+form{
+	position: relative;
+	border: 1px solid black;
+	margin: 20px;
+	word-wrap:auto;
+	padding: auto;
+}
+#lname{
+	border: 1px; coral;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color:white;
+	font-size: 16px;
+	resize: none;
+	margin: 8px 0;
+  }
+
+  input[type=submit]{
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid black;
+  }
+
+
+footer
+{
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+}
+
+#my-img{ 
+	/* position: absolute;
+	width: 800px;
+	margin: auto;
+	left: 100px; */
+}
+
+
+
+
