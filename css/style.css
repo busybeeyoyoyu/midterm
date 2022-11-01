@@ -68,26 +68,6 @@ header .container {
 	margin:0 auto;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow:hidden;
-  }
-  
-  li {
-	display: inline;
-  }
-
-li a{
-  display: inline;
-  color:black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-
   
 h1{
 	position: absolute;
@@ -98,6 +78,19 @@ h1{
 	font-size: 36pt;
 }
 
+  
+.list{
+	display: inline;
+}
+
+li a{
+
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
 
 h2 
 {
@@ -133,10 +126,10 @@ h3{
 }
 
 
-p1 .options{
-	padding: 20px;
+li{
+	padding-left: 4px;
 	margin: 20px;
-	line-height: 18px;
+	line-height: 10px;
 }
 
 h4{
@@ -152,11 +145,9 @@ form{
 	border: 1px solid black;
 	margin: 20px;
 	word-wrap:auto;
-	padding: auto;
+	padding: 10px;
 }
-#lname{
-	border: 1px; coral;
-}
+
 
 input[type=text] {
 	width: 100%;
@@ -182,9 +173,17 @@ textarea {
 	padding: 12px 20px;
 	margin: 15px 0;
 	border: 1px solid black;
+	background-color:#d4e9e7;
   }
 
+p1{
+	padding: 5px;;
+	text-align:20px;
+	font-size: 1rem;
+	line-height: 20px;
+	margin: 2px;
 
+}
 footer
 {
 	padding-top: 50px;
