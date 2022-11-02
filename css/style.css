@@ -65,7 +65,7 @@ body{
 }
 header .container {
 	position:relative;
-	margin:0 auto;
+	margin: 20px;
 }
 
   
@@ -79,17 +79,26 @@ h1{
 }
 
   
-.list{
+.menu{
 	display: inline;
+	margin: 102px;
+	font-size: 16pt;
+	padding: 10px;
+	line-height: 40px;
+	background-color:#d4e9e7;
 }
 
-li a{
-
-  color:black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
+.menu2{
+	display: inline;
+	font-size: 16pt;
+	padding: 10px;
+	padding-left: 145px;
+	padding-right: 145px;
+	line-height: 40px;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom: none;
+	background-color:#d4e9e7;
 }
 
 h2 
@@ -141,10 +150,8 @@ h4{
 	padding-bottom: 10px;
 }
 form{
-	position: relative;
 	border: 1px solid black;
 	margin: 20px;
-	word-wrap:auto;
 	padding: 10px;
 }
 
@@ -168,6 +175,8 @@ textarea {
 	resize: none;
 	margin: 8px 0;
   }
+ 
+
 
   input[type=submit]{
 	padding: 12px 20px;
@@ -177,12 +186,11 @@ textarea {
   }
 
 p1{
-	padding: 10px;;
+
 	text-align:20px;
 	font-size: 1rem;
 	line-height: 20px;
 	margin: 2px;
-
 }
 footer
 {
